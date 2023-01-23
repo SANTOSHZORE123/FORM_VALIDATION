@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>welcome to Dragon Travel Desk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="display"></div>
+
+        <h1>Dragon Travel Desk</h1>
+        <div class="mb-0">
+            <label for="name" class="form-label">name</label>
+            <input type="text" class="form-control" id="name" placeholder="enter your name here">
+            <small id="passwordHelpBlock" class="form-text text-muted invalid-feedback">
+                your name must be 2-10 characters and should not start with numbers
+            </small>
+        </div>
+        <div class="mb-1">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="enter your email here">
+            <small id="passwordHelpBlock" class="form-text text-muted invalid-feedback">
+                your email is invalid
+            </small>
+        </div>
+
+        <div class="form-floating">
+            <select class="form-select form-control mb-3" id="car" aria-label="Floating label select example">
+                <option selected>Open this select menu</option>
+                <option value="1">maruti 800</option>
+                <option value="2">Ford</option>
+                <option value="3">Swift</option>
+                <option value="4">range rover</option>
+            </select>
+            <label for="car">select your car</label>
+        </div>
+        <div class="form-floating my-1">
+            <textarea class="form-control" placeholder="Leave a comment here" id="Address"></textarea>
+            <label for="Address">Enter Your Address</label>
+        </div>
+        <div class="mb-1">
+            <label for="number123" class="form-label">phone number</label>
+            <input type="number" class="form-control" id="number123" placeholder="enter your phone number here">
+            <small id="passwordHelpBlock" class="form-text text-muted invalid-feedback">
+                your phone number must be 10 digit long
+            </small>
+        </div>
+
+        <div class="comments">
+            <label for="text">Enter your message/comments </label>
+            <textarea name="text" id="text" cols="123%" rows="2"></textarea>
+        </div>
+        <div id="submit" class="btn btn-sm btn-primary">Submit</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="/project4.js"></script>
+</body>
+
+</html>
